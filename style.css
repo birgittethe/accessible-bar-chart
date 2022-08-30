@@ -9,10 +9,12 @@
 }
 
 html {
+    margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
 body {
+    margin: 0;
     background-image: url('https://gist.githubusercontent.com/birgittethe/474000caff89d12689b6ba82b014d41e/raw/access-d3-bg.svg');
     background-repeat: no-repeat;
     height: 100vh;
