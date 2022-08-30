@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url('https://gist.githubusercontent.com/birgittethe/474000caff89d12689b6ba82b014d41e/raw/access-d3-bg.svg');
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+section {
+    text-align: center;
+    margin-top: 8em;
+    padding: 1em;
+}
+
+h1 {
+    color: #191919;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.chart_wrapper {
+    margin: auto;
+    border: 2px solid grey;
+    border-radius: 2px;
+    max-width: 500px;
+    min-height: 400px;
+    background-color: white;
+}
+
+.dropdown_wrapper {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.chart {
+    padding: 2em;
+}
+
+.legend {
+    font-size: 18px;
+}
+
+.label {
+    font-size: 18px;
+}
+
+.x_axis {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.y_axis {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.y_label {
+    font-size: 16px;
+}
+
+footer {
+    visibility: hidden;
+}

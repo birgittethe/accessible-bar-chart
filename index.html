@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.6.1/d3.min.js"
+        integrity="sha512-MefNfAGJ/pEy89xLOFs3V6pYPs6AmUhXJrRlydI/9wZuGrqxmrdQ80zKHUcyadAcpH67teDZcBeS6oMJLPtTqw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Accessible D3</title>
+</head>
+
+<body>
+    <section>
+        <div class="chart_wrapper">
+            <div class="dropdown_wrapper">
+                <h1>D3 Vertical Bar Chart</h1>
+                <label for="colors">Change color of the bars:</label>
+                <select name="colors" onchange="changeColor(this)">
+                    <option value="">Choose Color</option>
+                    <option value="#C23B21">Red</option>
+                    <option value="#000083">Blue</option>
+                    <option value="#FDCC0C">Yellow</option>
+                    <option value="#006B3D">Green</option>
+                </select>
+            </div>
+            <div class="chart"></div>
+        </div>
+    </section>
+    <footer>background from SVGBackgrounds.com</footer>
+</body>
+<script src="script.js"></script>
+
+</html>
